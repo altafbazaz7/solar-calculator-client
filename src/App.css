@@ -103,3 +103,11 @@ input::placeholder {
 .card_wrapper span:first-child {
   font-weight: bold;
 }
+
+
+.card_container{
+  width: 100vw;
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+}
