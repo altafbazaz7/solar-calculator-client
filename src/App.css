@@ -1,0 +1,105 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background: lightgray;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 32px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: white;
+  padding: 10px;
+  border-radius: 7px;
+  text-align: center;
+  width: 300px;
+  position: absolute;
+  left: 2%;
+  bottom: 2%;
+}
+
+.add_button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 50px;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  cursor: pointer;
+  width: 120px;
+  font-weight: 800;
+  transition: all 0.3s ease-in;
+}
+
+.save_button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: lightcoral;
+  color: white;
+  text-align: center;
+  width: 50px;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
+  cursor: pointer;
+  width: 80px;
+  font-weight: 800;
+}
+.add_button:hover {
+  background-color: lightcyan;
+}
+
+.form_wrapper {
+  border: 0.5px solid silver;
+  height: 300px;
+  width: 510px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 22px;
+  position: relative;
+  top: 20px;
+}
+
+.form_wrapper input {
+  height: 60px;
+  border-radius: 12px;
+  border: 1.5px solid silver;
+}
+input::placeholder {
+  color: silver;
+  padding-left: 3px;
+}
+
+.hide {
+  display: none;
+}
+
+.card_wrapper {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.card_wrapper span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.card_wrapper span:first-child {
+  font-weight: bold;
+}
